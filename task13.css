@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+  }
+    .bottom-left {
+    position: absolute;
+    bottom: 25px;
+    left: 50px;
+    color: white;
+    }
+    .controls{
+      display: none;
+    }
+    .media{
+      width: 550px;
+    }
+    .column {
+    float: left;
+    width: 25%;
+    padding: 0 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    padding: 16px;
+    text-align:left;
+    background-color:rgb(128, 128, 128,0.2);
+    color: #ffff;
+    border-radius: 10px;
+  }
+  .card1{
+    font-size: 13px;
+  }
+  .accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+.card2{
+    background-color:#fbf5f3;
+    border: none;
+    font-size: 17px;
+}
+.card2-title{
+  font-weight: bold;
+}
+footer{
+  background-color: rgb(128, 128, 128,0.1);
+  color:#0d0c22;
+}
+footer a{
+  color: #3d3d4e;
+}
+footer a:hover{
+  color: #3d3d4e;
+  text-decoration: none;
+}
+  
+.fa-facebook-official{
+  font-size: 20px;
+}
+.fa-twitter {
+  color:black;
+}
+.fa-instagram {
+  color:black;
+}
+    @media (min-width:320px) and (max-width:767px) {
+      .media{
+      width: 200px;
+      flex-wrap: wrap;
+     padding-right: 100px;
+    }
+  
+    .ima2{
+      width: 170px;
+    }
+    .bottom-left {
+    position: absolute;
+    bottom: 180px;
+    left: 50px;
+    color:white;
+    }
+  .image1{
+    display: none;
+  }
+  .abc{
+    text-align: center;
+  }
+  .tablap1{
+    display: none;
+  }
+.tablap{
+text-align: center;
+    }
+    video{
+      height: 120px;
+    }
+    .signup{
+      display: none;
+    }
+    .ash{
+      display: none;
+          }
+          .card3{
+            height: 200px;
+            width: 250px;
+          }
+          .card3-text{
+            height: 45px;
+        }
+   .navbar-toggler{
+           margin-right: 80px;
+           margin-top: -70px; 
+           }
+           .navbar-brand{
+           padding-left: 100px;  
+          }
+          textarea,
+          input{
+              width: 100%;
+              font-weight: 400;
+              padding: 8px 10px;
+              border-radius: 5px;
+              border: 1.2px solid #c4cae0;
+              margin-top: 5px;
+          }
+          textarea{
+              resize: none;
+          }
+          .gaurav{
+            display: none;
+        }
+          .stickytop1{
+            position: -webkit-sticky;
+            top: 0;
+            position: sticky;
+            z-index: 1;
+          }
+
+  }
+    @media (min-width:768px) and (max-width:991px) {
+      .abc{
+        text-align: center;
+      }
+      .media{
+        width: 420px;
+      }
+      .image1{
+        display: none;
+      }
+      video{
+        height: 350px;
+      }
+      .signup{
+        display: none;
+      }
+      .navbar-toggler{
+       margin-right: 270px;
+     margin-top: -60px;
+       
+      }
+      .navbar-brand{
+    margin-left: 320px;
+    
+      }
+      .ash{
+        display: none;
+      }
+      .card3{
+        height: 180px;
+      }
+  .card3-text{
+    margin-left: 20px;
+  }
+  .card3-title{
+    margin-left: 20px;
+  }
+  .test{
+padding-left: 40px;
+  }
+  textarea,
+input{
+    width: 100%;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1.2px solid #c4cae0;
+    margin-top: 5px;
+}
+textarea{
+    resize: none;
+} 
+.stickytop1{
+  position: -webkit-sticky;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+    }
+    @media only screen and (min-width:991px){
+      .abc2{
+        padding-left: 560px;
+        margin-bottom: 50px;
+      }
+      .abc3{
+        padding-left: 140px;
+      }
+    }
+    @media (min-width:768px) and (max-width:1400px){
+.tablap{
+display: none;
+}
+    }
+    @media (min-width:992px) and (max-width:1400px) {
+      .nar{
+        display: none;
+      }
+      .form{
+        display: none;
+      }
+    }
+
+
+
+  
+
+
